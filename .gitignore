@@ -1,0 +1,85 @@
+# Build artifacts
+config.cache
+config.log
+config.status
+config.h
+Makefile
+include/ncurses_cfg.h
+headers.sh
+headers.sed
+mk_shared_lib.sh
+edit_man.*
+man_alias.*
+
+# Generated files
+lib/
+objects/
+*.o
+*.a
+*.so
+*.so.*
+
+# Directories created during build
+lib/
+objects/
+
+# Generated source files
+ncurses/codes.c
+ncurses/comp_captab.c
+ncurses/comp_userdefs.c
+ncurses/expanded.c
+ncurses/fallback.c
+ncurses/lib_gen.c
+ncurses/lib_keyname.c
+ncurses/link_test.c
+ncurses/names.c
+ncurses/unctrl.c
+ncurses/init_keytry.h
+ncurses/keys.list
+
+# Build tools
+ncurses/make_keys
+ncurses/make_hash
+ncurses/report_offsets
+
+# Header files generated during build
+include/curses.h
+include/hashsize.h
+include/ncurses_def.h
+include/parametrized.h
+include/term.h
+include/termcap.h
+include/unctrl.h
+panel/panel.h
+menu/menu.h
+menu/eti.h
+menu/mf_common.h
+form/form.h
+
+# Miscellaneous build files
+misc/terminfo.tmp
+misc/run_tic.sed
+misc/run_tic.sh
+misc/ncurses-config
+c++/etip.h
+*.map
+resulting.map
+
+# Temporary files
+*~
+*.bak
+*.tmp
+core
+tags
+TAGS
+*.i
+*.ii
+*.ln
+*.atac
+trace
+
+# macOS
+*.dSYM/
+
+# Shared library files
+.libs/
